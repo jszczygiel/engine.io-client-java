@@ -16,6 +16,9 @@ apply plugin: 'maven'
 
 group = 'com.github.jszczygiel'
 
+targetCompatibility = '1.7'
+sourceCompatibility = '1.7'
+
 dependencies {
     compile 'org.codeartisans:org.json:20150729'
     compile 'com.neovisionaries:nv-websocket-client:1.28'
